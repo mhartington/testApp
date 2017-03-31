@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController } from 'ionic-angular';
-// import moment from 'moment';
+import moment from 'moment';
 
 @IonicPage()
 @Component({
@@ -11,6 +11,6 @@ export class HomePage {
   constructor(
     public navCtrl: NavController
   ) {
-    // console.log(moment().format('dddd'))
+    console.log(moment().format('dddd'))
   }
 }
